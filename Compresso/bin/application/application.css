@@ -1,0 +1,25 @@
+.root-vbox {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-background-color: #f0f0f0;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
